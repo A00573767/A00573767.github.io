@@ -1,0 +1,495 @@
+/* Basic styling */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+      background: url(img/back2.jpeg);
+      font-family: 'Oswald', sans-serif, bold, serif;
+
+}
+nav {
+  background: #000;
+  padding: 0 15px;
+    border-bottom: 0.2px solid #fff;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.menu,
+.submenu {
+  list-style-type: none;
+}
+
+.line{
+    border-bottom: 2px solid #fff ;
+    display: block;
+}
+.logo {
+  font-size: 50px;
+  padding: 7.5px 10px 7.5px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.menumenu{
+    align-content: 60;
+    margin: auto;
+    width: 80%;
+}
+
+
+.item {
+  padding: 10px;
+  font-size: 150%;
+}
+.item.button {
+  padding: 9px 5px 9px -5px;
+}
+.item:not(.button) a:hover,
+.item a:hover::after {
+  color: #ccc;
+}
+/* Mobile menu */
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu li a {
+  display: block;
+  padding: 15px 5px;
+}
+.menu li.subitem a {
+  padding: 15px;
+}
+.toggle {
+  order: 1;
+  font-size: 30px;
+
+}
+.item.button {
+  order: 2;
+}
+.item {
+  order: 3;
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+.active .item {
+  display: block;
+}
+.button.secondary {
+  /* divider between buttons and menu links */
+  border-bottom: 1px #444 solid;
+}
+/* Submenu up from mobile screens */
+.submenu {
+  display: none;
+}
+.submenu-active .submenu {
+  display: block;
+}
+.has-submenu i {
+  font-size: 12px;
+}
+.has-submenu > a::after {
+  font-family: "Font Awesome 5 Free";
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 900;
+  content: "\f078";
+  color: white;
+  padding-left: 5px;
+}
+.subitem a {
+  padding: 10px 15px;
+}
+.submenu-active {
+  background-color: #111;
+  border-radius: 3px;
+}
+
+/* Tablet menu */
+@media all and (min-width: 900px) {
+  .menu {
+    justify-content: center;
+  }
+  .logo {
+    flex: 1;
+  }
+  .item.button {
+    width: auto;
+    order: 1;
+    display: block;
+  }
+  .toggle {
+    flex: 1;
+    text-align: center;
+    order: 2;
+    
+  }
+  /* Button up from tablet screen */
+  .menu li.button a {
+    padding: 10px 15px;
+    margin: 5px 0;
+  }
+  .button a {
+    background: #0080ff;
+    border: 1px royalblue solid;
+  }
+  .button.secondary {
+    border: 0;
+  }
+  .button.secondary a {
+    background: transparent;
+    border: 1px #0080ff solid;
+  }
+  .button a:hover {
+    text-decoration: none;
+  }
+  .button:not(.secondary) a:hover {
+    background: royalblue;
+    border-color: darkblue;
+  }
+}
+/* Desktop menu */
+@media all and (min-width: 960px) {
+  .menu {
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    background: none;
+  }
+  .logo {
+    order: 0;
+  }
+  .item {
+    order: 1;
+    position: relative;
+    display: block;
+    width: auto;
+  }
+  .button {
+    order: 2;
+  }
+  .submenu-active .submenu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 68px;
+    background: #111;
+  }
+  .toggle {
+    display: none;
+    align-content: center;
+  }
+  .submenu-active {
+    border-radius: 0;
+  }
+}
+
+
+/* incio de la primer division */
+.landi{
+    width: 100%;
+    height: 95%
+}
+
+
+
+
+/* incio del calendario */
+.shen {
+    color: red;
+    text-shadow: -2px -1px 2px #000;
+
+}
+td .peaga{
+    color: deepskyblue;
+}
+.memo {
+    color: #0083FF ;
+    text-shadow: -1.5px 1px 2px #000;
+
+}
+ 
+.fisi {
+    color: #C100FF;
+    text-shadow: -2.5px 1px 2px #000;
+
+}
+
+.elvi{
+    color: chartreuse;
+    text-shadow: -2.5px 1px 2px #000;
+}
+
+
+.mirey {
+    color: cyan;
+    text-shadow: -2.5px 1px 2px #000;
+}
+
+
+.suhay{
+    color: deeppink;
+    text-shadow: -2.5px 1px 2px #000;
+}
+
+.gordi{
+    color: #000;
+    text-shadow: 0px 0px 2px #000;
+}
+
+.re{
+    color: #FFFF00;
+    text-shadow: -2.5px 1px 2px #000;
+}
+
+.mex{
+    color: #FF8700;
+    text-shadow: -2.5px 1px 2px #000;
+}
+
+
+table {
+  width: 90%;
+  border-spacing: 0;
+  border-collapse: separate;
+  table-layout: fixed;
+  margin-bottom: 50px;
+  margin-left: 5%;
+  margin-top: 1.2%;
+  align-content: center;
+
+}
+table thead tr th {
+  background: #222;
+  
+  font-size: 150%;
+  color: #ffffff;
+  padding: 0.5em;
+  overflow: hidden;
+}
+table thead tr th:first-child {
+  border-radius: 20px 0 0 0;
+}
+table thead tr th:last-child {
+  border-radius: 0 20px  0 0;
+}
+table thead tr td .esquina d{
+  border-radius: 0 0 20px 0;
+}
+table thead tr th .day {
+  display: block;
+  font-size: 1.2em;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 0 auto 5px;
+  padding: 5px;
+  line-height: 1.8;
+}
+table thead tr th .day.active {
+  background: #d1d5db;
+  color: #000;
+}
+table thead tr th .short {
+  display: none;
+}
+table thead tr th i {
+  vertical-align: middle;
+  font-size: 2em;
+}
+table tbody tr {
+  background: #94979B;
+}
+table tbody tr:nth-child(odd) {
+  background: #c8cdd4;
+}
+table tbody tr:nth-child(4n+0) td  {
+  border-bottom: 1px solid #000;
+}
+
+
+
+/*tamaño de los cuadros con materias */
+table tbody tr td {
+  backface-visibility: hidden;
+    background-color: rgba(0, 0, 0, .5);
+  text-align: center;
+  font-size: 150%;
+  vertical-align: middle;
+  border-left: 1px solid #000;
+  position: relative;
+  height: 100px;
+  cursor: pointer;
+}
+table tbody tr td:last-child {
+  border-right: 1px solid #000;
+}
+
+
+table tbody tr td.hour {
+  font-size: 1.8em;
+  padding: 0;
+  color: black;
+  background: #fff;
+  border-bottom: 1px solid #000;
+  border-collapse: separate;
+  min-width: 80px;
+  cursor: default;
+}
+
+
+table tbody tr td.hour span {
+  display: block;
+}
+
+@media (max-width: 100em) {
+  table thead tr th .long {
+    display: none;
+  }
+  table thead tr th .short {
+    display: block;
+  }
+  
+  table tbody tr td.hour span {
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+  }
+}
+@media (max-width: 27em) {
+  table thead tr th {
+    font-size: 65%;
+  }
+  table thead tr th .day {
+    display: block;
+    font-size: 0em;
+    border-radius: 50%;
+    width: 0px;
+    height: -10px;
+    margin: 0 auto 5px;
+    padding: 0px;
+  }
+  table thead tr th .day.active {
+    background: #d1d5db;
+    color: #000;
+  }
+  table tbody tr td.hour {
+    font-size: 2.7em;
+  }
+  table tbody tr td.hour span {
+    transform: translateY(16px) rotate(270deg);
+    -webkit-transform: translateY(16px) rotate(270deg);
+    -moz-transform: translateY(16px) rotate(270deg);
+  }
+}
+
+
+
+
+body{
+
+  font-weight:300;
+  background-color:black;
+  color:#FFF;
+}
+
+.redes{
+    float: right;
+    line-height: 70px;
+    text-align: center;
+}
+
+
+section{
+  text-align:center;
+}
+.footer #button{
+	width:35px;
+	height:35px;
+	border: #fff 12px solid;
+	border-radius:35px;
+	margin:0 auto;
+	position:relative;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.footer #button:hover{
+	width:35px;
+	height:35px;
+	border: #fff 12px solid;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	position:relative;
+}
+.footer {
+	bottom:0;
+	left:0;
+	position:fixed;
+    width: 100%;
+    height: 2em;
+    overflow:hidden;
+    margin:0 auto;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	z-index:999;
+}
+.footer:hover {
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	height: 10em;
+}
+.footer #container{
+	margin-top: 5px;
+	width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+	background: #000;
+}
+.footer #cont{
+    position:relative;
+    top: -45px;
+    right: 190px;
+	width: 150px;
+	height: 2px;
+	margin: 0 auto;
+}
+.footer_center{
+	width:500px;
+	float:left;
+  text-align:center;
+}
+.footer h3{
+	font-size: 30px;
+	font-weight: 100;
+	margin-top:70px;
+	margin-left:40px;
+}
+ 
+
+.mumu{
+    text-align:center;
+    padding: 20px 20px 20px 20px;
+    font-size: 50px;
+}
