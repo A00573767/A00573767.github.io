@@ -1,1 +1,337 @@
-# A00573767.github.io
+<html>
+    
+    <head>
+        
+        <link rel="icon" type="image/png" href="img/CIA-Logo.png"/>
+        
+        <title>nav</title>
+        
+        <link rel="stylesheet" type="text/css" href="nav.css">
+        
+        <script class="u-script" type="text/javascript" src="nav.js" defer=""></script>
+        
+        <script src="https://kit.fontawesome.com/4ed7456ecf.js" crossorigin="anonymous"></script>
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+
+    </head>
+    
+    <body>
+    
+        <nav>
+        
+        <h2 class="logo"><spa>Emilio Guadarrama</spa></h2>
+        
+        <hr class="menumenu">
+            
+          <ul class="menu">
+            
+            <li class="item"><a href="1ho.html">Home</a></li>
+              
+            <li class="item"><a href="nav.html">Calendar</a></li>
+                          
+              
+            <li class="item"><a href="Fam.html">Family</a></li>
+              
+            <li class="item"><a href="#">Contact</a>
+            </li>
+              
+ 
+              
+            <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+              
+          </ul>
+            
+        </nav>
+        
+      <!-- <div>
+            <h2></h2>
+            <img class="landi" src="img/back2.jpeg" >
+        </div>-->
+        
+        <div>
+         
+        </div>
+        
+        <table style="">
+            
+          <thead>
+              
+            <tr>
+                
+              <th>
+                  
+               <span class="long">Hour</span>
+               <span class="short">HR</span> 
+              </th>
+              <th>
+                <span class="long">Monday</span>
+                <span class="short">Mon</span>
+              </th>
+              <th>
+                <span class="long">Tuesday</span>
+                <span class="short">Tue</span>
+              </th>
+              <th>
+                <span class="long">Wendsday</span>
+                <span class="short">We</span>
+              </th>
+              <th>
+                <span class="long">Thursday</span>
+                <span class="short">Thur</span>
+              </th>
+              <th>
+                <span class="long">Friday</span>
+                <span class="short">Fri</span>
+              </th>
+
+            </tr>
+              
+          </thead>
+            
+          <tbody>
+
+            <tr>
+                
+              <td class="hour" rowspan="4"><span>7:45 <br> 8:35</span></td>
+                
+            </tr>
+              
+            <tr>
+
+
+            </tr>
+              
+            <tr>
+
+            </tr>
+              
+            <tr>
+                
+              <td><a class="elvi" target="_blank" href="https://us02web.zoom.us/j/2018062700?pwd=dTJDL054V1N5bkJicGJ2QXhUenpVdz09">Español</a></td>
+
+              <td><a class="Mex" target="_blank" href="https://us04web.zoom.us/j/6060767871?pwd=cHF5OWhHdVB2MmZQeit4RU5GK2pFZz09">Historia de México</a></td>
+
+              <td><a class="memo" target="_blank" href="https://us02web.zoom.us/j/9640207984?pwd=UzdLc2pFUUFLT2puZ2cvQ0s4Si9Udz09">Matemáticas</a></td>
+
+              <td><a class="mex" target="_blank" href="https://us04web.zoom.us/j/6060767871?pwd=cHF5OWhHdVB2MmZQeit4RU5GK2pFZz09">Historia de México</a></td>
+
+              <td style="background: #00A0D3;"><a class="gordi" target="_blank" href="https://us04web.zoom.us/j/8693100467?pwd=TkVXdEV0Y1pNUzlqVDJHRjdwdndEZz09">Educacíon Física</a></td>
+
+            </tr>
+
+            <tr>
+                
+              <td class="hour" rowspan="4"><span>8:35 <br> 9:25</span></td>
+
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+              
+            <tr>
+              <td><a class="elvi" target="_blank" href="https://us02web.zoom.us/j/2018062700?pwd=dTJDL054V1N5bkJicGJ2QXhUenpVdz09">Español</a></td>
+
+              <td><a class="shen" target="_blank" href="https://us02web.zoom.us/j/5459714924?pwd=OG5OcnFsWVV0UEdlbHpOdENid05Mdz09">Computing</a></td>
+
+              <td><a class="elvi" target="_blank" href="https://us02web.zoom.us/j/2018062700?pwd=dTJDL054V1N5bkJicGJ2QXhUenpVdz09">Español</a></td>
+
+              <td><a class="mirey" target="_blank" href="https://us04web.zoom.us/j/2539176560?pwd=YnZ1Z1F1RXQ3TnNYZDFQdFFLcHVEUT09">Cívica</a></td>
+
+              <td><a class="fisi" target="_blank" href="https://us04web.zoom.us/j/6399264590?pwd=QUVXSDZXTk1Oa09TSXpLTmdOdUZMZz09">Química</a></td>
+
+            </tr>
+              
+              <tr>
+              <td class="hour" rowspan="4"><span>9:25 <br> 10:15</span></td>
+
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+                
+              <td><a class="fisi" target="_blank" href="https://us04web.zoom.us/j/6399264590?pwd=QUVXSDZXTk1Oa09TSXpLTmdOdUZMZz09">Química</a></td>
+
+              <td><a class="shen" target="_blank" href="https://us02web.zoom.us/j/5459714924?pwd=OG5OcnFsWVV0UEdlbHpOdENid05Mdz09">History</a></td>
+
+              <td><a class="elvi" target="_blank" href="https://us02web.zoom.us/j/2018062700?pwd=dTJDL054V1N5bkJicGJ2QXhUenpVdz09">Español</a></td>
+
+              <td><a class="mirey" target="_blank" href="https://us04web.zoom.us/j/2539176560?pwd=YnZ1Z1F1RXQ3TnNYZDFQdFFLcHVEUT09">Cívica</a></td>
+
+              <td><a class="fisi" target="_blank" href="https://us04web.zoom.us/j/6399264590?pwd=QUVXSDZXTk1Oa09TSXpLTmdOdUZMZz09">Química</a></td>
+
+            </tr>
+            
+                
+            <tr>
+              <td class="hour" rowspan="4"><span>10:15 <br> 10:50</span></td>
+
+
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr style="background: #FFF300;">
+                
+              <td style="background: #FFD800;"><a class="re" target="_blank" href="#"></a></td>
+              <td style="background: #FFD800;"><a class="re" target="_blank" href="#"></a></td>
+              <td style="background: #FFD800;"><a class="re" target="_blank" href="#"></a></td>
+              <td style="background: #FFD800;"><a class="re" target="_blank" href="#"></a></td>
+              <td style="background: #FFD800;"><a class="re" target="_blank" href="#"></a></td>
+
+            </tr>
+            <tr>
+              <td class="hour" rowspan="4"><span>10:50 <br> 11:40</span></td>
+
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+                
+              <td><a class="shen" target="_blank" href="https://us02web.zoom.us/j/5459714924?pwd=OG5OcnFsWVV0UEdlbHpOdENid05Mdz09">English</a></td>
+
+              <td><a class="elvi" target="_blank" href="https://us02web.zoom.us/j/2018062700?pwd=dTJDL054V1N5bkJicGJ2QXhUenpVdz09">Español</a></td>
+
+              <td><a class="suhay" target="_blank" href="https://us04web.zoom.us/j/4583223797?pwd=QnhyWWU4ZUhLdGV0UENCOVFRZE1vQT09  ">Arte</a></td>
+
+              <td><a class="memo" target="_blank" href="https://us02web.zoom.us/j/9640207984?pwd=RmdZWW1uL2ZlVnRkU2wwaEI4cFZ4QT09">Matemáticas</a></td>
+
+              <td><a class="memo" target="_blank" href="https://us02web.zoom.us/j/9640207984?pwd=RmdZWW1uL2ZlVnRkU2wwaEI4cFZ4QT09">Matemáticas</a></td>
+
+            </tr>
+            <tr>
+              <td class="hour" rowspan="4"><span>11:40 <br> 12:30</span></td>
+
+
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+
+              <td><a class="shen" target="_blank" href="https://us02web.zoom.us/j/5459714924?pwd=OG5OcnFsWVV0UEdlbHpOdENid05Mdz09">English</a></td>
+
+              <td><a class="elvi" target="_blank" href="https://us02web.zoom.us/j/2018062700?pwd=dTJDL054V1N5bkJicGJ2QXhUenpVdz09">Español</a></td>
+
+              <td><a class="suhay" target="_blank" href="https://us04web.zoom.us/j/4583223797?pwd=QnhyWWU4ZUhLdGV0UENCOVFRZE1vQT09  ">Arte</a></td>
+
+              <td><a class="memo" target="_blank" href="https://us02web.zoom.us/j/9640207984?pwd=RmdZWW1uL2ZlVnRkU2wwaEI4cFZ4QT09">Matemáticas</a></td>
+
+              <td><a class="memo" target="_blank" href="https://us02web.zoom.us/j/9640207984?pwd=RmdZWW1uL2ZlVnRkU2wwaEI4cFZ4QT09">Matemáticas</a></td>
+
+            </tr>
+            
+            <tr>
+              <td class="hour" rowspan="4"><span>12:30 <br> 1:00</span></td>
+
+
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr style="background: #FFF300;">
+                
+              <td style="background: #FFD800;" class="peaga" ><a  target="_blank" href="#"></a></td>
+              <td style="background: #FFD800;"><a class="re" target="_blank" href="#"></a></td>
+              <td style="background: #FFD800;"><a class="re" target="_blank" href="#"></a></td>
+              <td style="background: #FFD800;"><a class="re" target="_blank" href="#"></a></td>
+              <td style="background: #FFD800;"><a class="re" target="_blank" href="#"></a></td>
+
+            </tr>
+
+            <tr>
+              <td class="hour" rowspan="4"><span>1:00 <br> 1:50</span></td>
+
+
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+                
+              <td><a class="memo" target="_blank" href="https://us02web.zoom.us/j/9640207984?pwd=UzdLc2pFUUFLT2puZ2cvQ0s4Si9Udz09">Tutoría</a></td>
+
+              <td><a class="fisi" target="_blank" href="https://us04web.zoom.us/j/6399264590?pwd=QUVXSDZXTk1Oa09TSXpLTmdOdUZMZz09">Química</a></td>
+
+              <td><a class="shen" target="_blank" href="https://us02web.zoom.us/j/5459714924?pwd=OG5OcnFsWVV0UEdlbHpOdENid05Mdz09">History</a></td>
+
+              <td><a class="shen" target="_blank" href="https://us02web.zoom.us/j/5459714924?pwd=OG5OcnFsWVV0UEdlbHpOdENid05Mdz09">History</a></td>
+
+              <td><a class="shen" target="_blank" href="https://us02web.zoom.us/j/5459714924?pwd=OG5OcnFsWVV0UEdlbHpOdENid05Mdz09">Computing</a></td>
+
+            </tr>
+
+            <tr>
+              <td class="hour" rowspan="4"><span>1:50 <br> 2:30</span></td>
+
+
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+                
+              <td style="background: #00A0D3;"><a class="gordi" target="_blank" href="https://us04web.zoom.us/j/8693100467?pwd=TkVXdEV0Y1pNUzlqVDJHRjdwdndEZz09">Educacíon Física</a></td>
+
+              <td><a class="fisi" target="_blank" href="https://us04web.zoom.us/j/6399264590?pwd=QUVXSDZXTk1Oa09TSXpLTmdOdUZMZz09">Química</a></td>
+
+              <td><a class="shen" target="_blank" href="https://us02web.zoom.us/j/5459714924?pwd=OG5OcnFsWVV0UEdlbHpOdENid05Mdz09">History</a></td>
+
+              <td><a class="shen" target="_blank" href="https://us02web.zoom.us/j/5459714924?pwd=OG5OcnFsWVV0UEdlbHpOdENid05Mdz09">English</a></td>
+
+              <td><a class="shen" target="_blank" href="https://us02web.zoom.us/j/5459714924?pwd=OG5OcnFsWVV0UEdlbHpOdENid05Mdz09">Computing</a></td>
+
+            </tr>
+
+          </tbody>
+            
+        </table>
+        
+        
+        <div class="footer">
+          <div id="button"></div>
+        <div id="container">
+        <div id="cont">
+        <div class="footer_center">
+               <h3>
+                   
+                   <a target="_blank" class="mumu"
+                      href="https://www.facebook.com/emilio.guadarrama.10">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                   
+                   <a target="_blank" class="mumu"
+                      href="https://www.instagram.com/emilio_guadarrama_rmz/">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                   
+                   <a target="_blank" class="mumu"
+                      href="#">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </h3>
+            
+            
+ 
+        </div>
+        </div>
+        </div>
+        </div>
+    
+
+
+    </body>
+    
+</html>
